@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 1.2rem;
+}
+
+#headleft{
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid white; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1.2rem;
+}
+
+#headright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 5px solid red; */
+    width: 50%;
+}
+
+.headitem{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headitem:hover{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    border-color: black;
+    padding: 0.3rem;
+    font-size: 1.8rem;
+    transition: all 0.5s ease-in-out;
+    /* transform: rotate(360deg); */
+    transform: translateZ(0);
+}
+
+.headerdiv{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#kodeinlogo{
+    width: 2.2rem;
+    height: 2.2rem; 
+}
+
+.headdivr{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+}
+
+.headimgdiv{
+    background-color: white;
+    border-radius: 50%;
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+}
+
+#img1{
+    background-image: url(aadish.jpg)
+}
+
+#imguser{
+    background-image: url(user.png)
+}
+
+#img3{
+    background-image: url(prabhash.jpg)
+}
+
+#img5{
+    background-image: url(bhavesh.jpg)
+}
+
+#img7{
+    background-image: url(swadin.jpg);
+}
+
+#img9{
+    background-image: url(shashi\ bhushan.jpg);
+}
+
+#img10{
+    background-image: url(ayushi.jpg);
+}
+
+#img11{
+    background-image: url(kunal\ agrawal.jpg);
+}
+
+#img12{
+    background-image: url(sumit\ kumar\ sharma.jpg);
+}
+
+#img13{
+    background-image: url(priyanshu\ ranjan.jpg);
+}
+
+#img14{
+    background-image: url(hemanth\ sai\ krishna.jpg);
+}
+
+#img15{
+    background-image: url(soukhin\ nayek.jpg);
+}
+
+#img16{
+    background-image: url(neeraj\ patel.jpg);
+}
+
+#img17{
+    background-image: url(suraj\ gupta.jpg);
+}
+
+#img18{
+    background-image: url(bhushan\ nakade.png);
+}
+
+#heading1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 3rem;
+}
+
+.HeadDiv{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    /* border: 2px white solid; */
+}
+
+.HeadDiv:hover{
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 30%;
+    /* transform: translateZ(10px); */
+    .SocHeadstext{
+        color: white;
+    }
+
+    .headimgdiv{
+        width: 13rem;
+        height: 13rem;
+    }
+
+}
+
+#SocHeadstext1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+
+#SocHeadstext2{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.SocHeadstext{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(98, 172, 237);
+}
+
+.headimgdiv{
+    align-self: center;
+}
+
+#heading1{
+    font-size: 3rem;
+}
+
+#emptydiv{
+    width: 12.5%;
+}
+
+#emptydiv2{
+    width: 25%;
+}
+
+#iframe{
+    width: 100%;
+    position: relative;
+    border: 0;
+    border-top: 2px ;
+    overflow-y: hidden;
+    height: 1200px;
+}
+
+.footerdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#footlogo{
+    width: 18%;
+}
+
+.footerlink{
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+.foothead{
+    padding-bottom: 2rem;
+}
+
+#f1{
+    width: 25%;
+    padding-left: 3rem;
+}
+
+#f2{
+    width: 25%;
+}
+
+#f3.f4{
+    width: 25%;
+}
+
+#ourteamsheading{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+#ourteamsbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background: -webkit-linear-gradient(right, #eee, #4ed2f7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#teambutton{
+    text-decoration: none;
+}
+
+#teambutton:hover{
+    background-color: white;
+    color: black;
+    transform: translateZ(0);
+    -webkit-text-fill-color: black;
+    padding: 5px;
+}
+
+#teamsgif{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 8rem;
+}
+
