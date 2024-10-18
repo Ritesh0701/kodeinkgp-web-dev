@@ -160,6 +160,10 @@ body{
         height: 13rem;
     }
 
+    #socialhandles{
+        display: flex;
+    }
+
 }
 
 #SocHeadstext1{
@@ -285,5 +289,19 @@ body{
     height: auto;
     box-sizing: border-box;
     padding: 8rem;
+}
+
+#socialhandles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    display: none;
+}
+
+#sociallogo{
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
 }
 
